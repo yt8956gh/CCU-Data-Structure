@@ -1,4 +1,4 @@
-毛胤年 資工2B 405410010
+
 
 The way that I realize Stack is using 
     (1) push function to get mouse from queue "mouse[0] & mouse[1]" 
