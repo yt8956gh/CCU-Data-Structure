@@ -1,0 +1,36 @@
+-------------------------------------
+Round 17
+Channel A food: 11
+Channel b food: 13
+
+Cave:
+1 
+
+Channel A:
+5 3 
+Channel B:
+4 6 2 
+-------------------------------------
+Round 87
+Channel A food: 65
+Channel b food: 64
+
+Cave:
+2 
+
+Channel A:
+1 5 3 
+Channel B:
+6 4 
+-------------------------------------
+Round 200
+Channel A food: 149
+Channel b food: 148
+
+Cave:
+2 6 
+
+Channel A:
+1 5 3 
+Channel B:
+4 

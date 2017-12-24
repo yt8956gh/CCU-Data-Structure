@@ -1,0 +1,14 @@
+#14 hunter's walking trajectory
+node:8 collect 1 coins
+node:13 collect 3 coins
+node:18 collect 7 coins
+node:15 collect 13 coins
+Totally collected 24 coins
+---------------------------------
+#88 hunter's walking trajectory
+node:8 collect 1 coins
+node:13 collect 3 coins
+node:18 collect 7 coins
+node:19 collect 14 coins
+Totally collected 25 coins
+---------------------------------
