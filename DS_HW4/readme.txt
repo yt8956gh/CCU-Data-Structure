@@ -1,6 +1,6 @@
 4-1 interface
 
-There are these functions below in this program\n");
+There are these functions below in this program
      (i) Insert Node
      (s) search Node
      (d) delete Node
