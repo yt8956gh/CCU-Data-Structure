@@ -2,17 +2,6 @@
 #include<string.h>
 #include<stdlib.h>
 
-int stack[1000],top=0;// top is first empty space in stack
-int edge_weight[1000],adj[1000][1000],term_num=0;
-
-void stack_is_full(void);
-
-void pushstack(int number);
-
-int popstack(void);
-
-int end_node(int number);
-
 /*
     edge_weight[MAX]紀錄所有起點出發到各點的最小路徑。 
     stack紀錄trace的順序。 
@@ -35,6 +24,15 @@ int end_node(int number);
     else跳到STEP 3 
 */
 
+int stack[1000],top=0;// top is first empty space in stack
+int edge_weight[1000],adj[1000][1000],term_num=0;
+
+void pushstack(int number);
+
+int popstack(void);
+
+int end_node(int number);
+
 int main(void)
 {
 
@@ -50,9 +48,9 @@ int main(void)
     for(i=0;i<1000;i++)
         edge_weight[i]=-1;
 
-
-    FILE *fp=NULL;
+    FILE *fp=NULL,*result=NULL;
     fp=fopen("1input.txt","r");
+    result=fopen("result1.txt","w");
 
     if(fp==NULL)
     {
@@ -83,7 +81,6 @@ int main(void)
         }
     }
 
-
     for(i=0;i<term_num;i++)
     {
         for(j=0;j<term_num;j++)
@@ -94,17 +91,26 @@ int main(void)
     }
 
     printf("Enter two vertice <start end>:");
+    fprintf(result,"Enter two vertice <start end>:");
 
     while(scanf("%d %d",&start,&end)!=EOF)
     {
+        fprintf(result,"%d %d\n",start,end);
+
 
         for(i=0;i<1000;i++)
             edge_weight[i]=-1;
 
-        if((start<=0)||(end<=0)||(start>term_num)||(end>term_num))
+        if(start==0||end==0)
+        {
+            return 0;
+        }
+
+        if((start<0)||(end<0)||(start>term_num)||(end>term_num))
         {
             fprintf(stderr, "The number is illegal\n");
             printf("Enter two vertice <start end>:");
+            fprintf(result,"Enter two vertice <start end>:");
             continue;
         }
 
@@ -141,35 +147,26 @@ int main(void)
         }
 
         printf("The cost from %d to %d is : %d\n",start,end,edge_weight[end-1]);
+        fprintf(result,"The cost from %d to %d is : %d\n",start,end,edge_weight[end-1]);
         printf("Enter two vertice <start end>:");
+        fprintf(result,"Enter two vertice <start end>:");
     }
 
     return 0;
 }
 
 
-void stack_is_full(void)
-{
-    if(top!=(1000-1))
-    {
-        fprintf(stderr, "Stack is full\n");
-        exit(1);
-    }
-}
-
 void pushstack(int number)
 {
-    stack_is_full;
-
-    stack[top]=number;
-    top++;
+    stack[top++]=number;
 }
+
 
 int popstack(void)
 {
-    top--;
-    return stack[top];
+    return stack[--top];
 }
+
 
 int end_node(int number)
 {
@@ -183,7 +180,6 @@ int end_node(int number)
             break;
         }
     }
-
     return empty;
 }
 

@@ -1,0 +1,5 @@
+Enter two vertice <start end>:1 5
+The cost from 1 to 5 is : 8
+Enter two vertice <start end>:3 4
+The cost from 3 to 4 is : -1
+Enter two vertice <start end>:0 0
