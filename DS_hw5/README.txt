@@ -37,7 +37,7 @@
     Union-Find Algorithm:
 
     It make every vertice save a key ,which is minimum vertice in that subtree.
-    That "some vertex have same key" represents that they are in same subtree, vice veresa.
+    That "some vertex have same key" represents that they are in same subtree, vice versa.
     A new edge will form a circuit iff. they are in same subtree.
 
     It works like below...
