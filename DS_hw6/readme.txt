@@ -1,6 +1,6 @@
 The program is used to realize the game named "6 Nimmit!"
 
-The game rule:
+The game rules:
     (1) The card is numbered from 1 to 104. No duplicate numbers will appear.
     (2) There are four rows. Every row holds up to five cards.
     (3) For each turn, the player with smaller card's number has higher priority todiscard.
