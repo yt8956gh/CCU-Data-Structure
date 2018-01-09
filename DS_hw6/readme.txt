@@ -6,7 +6,10 @@ The game rule:
     (3) For each turn, the player with smaller card's number has higher priority todiscard.
     (4) Each player has 66 points initially.
     (5) If the player places the fifth card in a row, he/she will lose 4 points.
-    (6) If the player discard the card number which is smaller than all cards in all rows,he/she claims all    cards in the row which has fewest cards. However, if every row has the same amount of cards, the player should claim all cards in the row which has the smallest card number.
+    (6) If the player discard the card number which is smaller than all cards in all rows,
+        he/she claims all cards in the row which has fewest cards.
+        However,if every row has the same amount of cards,
+        the player should claim all cards in the row which has the smallest card number.
 
 Notes:
 1. This program will read a file named "input.txt" and write a file named "result.txt".
