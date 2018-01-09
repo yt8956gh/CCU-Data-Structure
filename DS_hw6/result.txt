@@ -1,0 +1,48 @@
+
+This is  3 round
+This is 1 row:	104
+This is 2 row:	15	17	27
+This is 3 row:	24	39	46
+This is 4 row:	58	66	67	90
+PlayerName:  1     Point: 66
+PlayerName:  2     Point: 58
+PlayerName:  3     Point: 62
+PlayerName:  4     Point: 64
+PlayerName:  5     Point: 66
+PlayerName:  6     Point: 66
+PlayerName:  7     Point: 62
+PlayerName:  8     Point: 66
+PlayerName:  9     Point: 65
+PlayerName: 10     Point: 62
+
+This is  5 round
+This is 1 row:	13	28	30
+This is 2 row:	83
+This is 3 row:	86
+This is 4 row:	100
+PlayerName:  1     Point: 66
+PlayerName:  2     Point: 58
+PlayerName:  3     Point: 62
+PlayerName:  4     Point: 60
+PlayerName:  5     Point: 62
+PlayerName:  6     Point: 62
+PlayerName:  7     Point: 58
+PlayerName:  8     Point: 62
+PlayerName:  9     Point: 65
+PlayerName: 10     Point: 57
+
+This is  7 round
+This is 1 row:	71	82	85	93
+This is 2 row:	77
+This is 3 row:	2
+This is 4 row:	100	101
+PlayerName:  1     Point: 62
+PlayerName:  2     Point: 54
+PlayerName:  3     Point: 62
+PlayerName:  4     Point: 59
+PlayerName:  5     Point: 62
+PlayerName:  6     Point: 58
+PlayerName:  7     Point: 54
+PlayerName:  8     Point: 62
+PlayerName:  9     Point: 64
+PlayerName: 10     Point: 57
